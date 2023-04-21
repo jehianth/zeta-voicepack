@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zeta Voicepack</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <!-- main content -->
+      <div class="main-content">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">Zeta Voicepack</h2>
+          </header>
+          <section class="about-text">
+            <div class="button-grid">
+              <button
+                class="form-btn"
+                onclick="playAudio('./assets/audio/halosayang.MP3')"
+                data-desktop="true"
+              >
+                Halo sayang
+                <img src="./assets/images/halosayang.png" width="40" />
+              </button>
+
+              <button
+                class="form-btn"
+                onclick="playAudio('./assets/audio/ahjangandong.MP3')"
+                data-desktop="true"
+              >
+                Ahh Jangan Dong..
+                <img src="./assets/images/ahjangandong.png" width="40" />
+              </button>
+
+              <button
+                class="form-btn"
+                onclick="playAudio('./assets/audio/akunggakhalu.MP3')"
+                data-desktop="true"
+              >
+                Aku nggak halu!
+                <img src="./assets/images/akunggakhalu.png" width="40" />
+              </button>
+
+              <button
+                class="form-btn"
+                onclick="playAudio('./assets/audio/ohmaygah.MP3')"
+                data-desktop="true"
+              >
+                Oh May Gah~
+                <img src="./assets/images/ohmaygah.png" width="40" />
+              </button>
+
+              <button
+                class="form-btn"
+                onclick="playAudio('./assets/audio/ahgapapa.MP3')"
+                data-desktop="true"
+              >
+                Ahh gapapa
+                <img src="./assets/images/ahgapapa.png" width="40" />
+              </button>
+
+              <button
+                class="form-btn"
+                onclick="playAudio('./assets/audio/akugapengen.MP3')"
+                data-desktop="true"
+              >
+                Aku dah bilang aku ga pengen
+                <img src="./assets/images/akugapengen.png" width="40" />
+              </button>
+
+              <button
+                class="form-btn"
+                onclick="playAudio('./assets/audio/tapiboong.MP3')"
+                data-desktop="true"
+              >
+                Tapi boong
+                <img src="./assets/images/tapiboong.png" width="40" />
+              </button>
+
+              <button
+                class="form-btn"
+                onclick="playAudio('./assets/audio/meow.MP3')"
+                data-desktop="true"
+              >
+                Meow
+                <img src="./assets/images/meow.png" width="40" />
+              </button>
+
+              <button
+                class="form-btn"
+                onclick="playAudio('./assets/audio/nyaarigato.MP3')"
+                data-desktop="true"
+              >
+                Nya arigato~
+                <img src="./assets/images/nyaarigato.png" width="40" />
+              </button>
+              
+              <button
+                class="form-btn"
+                onclick="playAudio('./assets/audio/akucinta.MP3')"
+                data-desktop="true"
+              >
+                Aku cinta!
+                <img src="./assets/images/akucinta.png" width="40" />
+              </button>
+
+              <button
+                class="form-btn"
+                onclick="playAudio('./assets/audio/janganayangan.MP3')"
+                data-desktop="true"
+              >
+                Jangan ayang-ayangan
+                <img src="./assets/images/janganayangan.png" width="40" />
+              </button>
+
+              <button
+                class="form-btn"
+                onclick="playAudio('./assets/audio/dadah.MP3')"
+                data-desktop="true"
+              >
+                Dadah~
+                <img src="./assets/images/dadah.png" width="40" />
+              </button>
+
+              <script type="text/javascript">
+                const audio = new Audio();
+                audio.preload = "auto";
+                audio.load();
+
+                function playAudio(src) {
+                  audio.src = src;
+                  audio.currentTime = 0;
+                  audio.play();
+                }
+              </script>
+              <br>
+            </div>
+            <div class="credit">
+              Credit Voice : <a href="https://twitter.com/vestiazeta" target="_blank">Vestia Zeta Hololive ID</a>
+              Credit Clip : <a href="https://www.youtube.com/@Kogepy" target="_blank">Kogepy</a>
+              Credit Art : <a href="https://twitter.com/kazu_rozen" target="_blank">kazuROZEN</a>
+            </div>
+          </section>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
