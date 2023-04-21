@@ -112,7 +112,7 @@
                 Nya arigato~
                 <img src="./assets/images/nyaarigato.png" width="40" />
               </button>
-              
+
               <button
                 class="form-btn"
                 onclick="playAudio('./assets/audio/akucinta.MP3')"
@@ -140,23 +140,30 @@
                 <img src="./assets/images/dadah.png" width="40" />
               </button>
 
-              <script type="text/javascript">
-                const audio = new Audio();
-                audio.preload = "auto";
-                audio.load();
-
+              <script>
                 function playAudio(src) {
+                  const audio = new Audio();
+                  audio.preload = "auto";
                   audio.src = src;
                   audio.currentTime = 0;
                   audio.play();
                 }
               </script>
-              <br>
+              <br />
             </div>
             <div class="credit">
-              Credit Voice : <a href="https://twitter.com/vestiazeta" target="_blank">Vestia Zeta Hololive ID</a>
-              Credit Clip : <a href="https://www.youtube.com/@Kogepy" target="_blank">Kogepy</a>
-              Credit Art : <a href="https://twitter.com/kazu_rozen" target="_blank">kazuROZEN</a>
+              Credit Voice :
+              <a href="https://twitter.com/vestiazeta" target="_blank"
+                >Vestia Zeta Hololive ID</a
+              >
+              Credit Clip :
+              <a href="https://www.youtube.com/@Kogepy" target="_blank"
+                >Kogepy</a
+              >
+              Credit Art :
+              <a href="https://twitter.com/kazu_rozen" target="_blank"
+                >kazuROZEN</a
+              >
             </div>
           </section>
         </article>
