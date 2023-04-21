@@ -83,7 +83,7 @@
 
 a { text-decoration: none; }
 
-img, a, button { display: block; }
+img, a, button {display: block;}
 
 button {
   font: inherit;
@@ -208,6 +208,26 @@ main {
   gap: 10px;
 }
 
+@media screen and (max-width: 580px) {
+  .gif {
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  .gif {
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+}
+
 @media screen and (min-width: 767px) {
   .button-grid {
     display: grid;
@@ -216,6 +236,13 @@ main {
   }
   .form-btn[data-desktop="true"] {
     width: 200px;
+  }
+  .gif {
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
   }
 }
 
@@ -227,6 +254,13 @@ main {
   }
   .form-btn[data-desktop="true"] {
     width: 200px;
+  }
+  .gif {
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
   }
 }
 
