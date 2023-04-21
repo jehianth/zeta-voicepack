@@ -7,4 +7,4 @@ just a leisure and my haluness for ayang zeta
 - Credit Art : <a href="https://twitter.com/kazu_rozen" target="_blank">kazuROZEN</a>
 
 # screenshot
-![screencapture-file-C-Users-Jehian-Documents-Unsoed-Semester-2-1st-Half-zeta-voicepack-index-html-2023-04-21-16_37_23](https://user-images.githubusercontent.com/55863992/233604230-9fe5cb95-6045-4cf5-9ca4-8e1ae77f78dc.png)
+![screencapture-zeta-voicepack-vercel-app-2023-04-21-18_19_51](https://user-images.githubusercontent.com/55863992/233624116-bfe5a5ea-8c89-4f5e-8b0f-c0f5eca0b30c.png)
