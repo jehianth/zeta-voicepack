@@ -8,3 +8,7 @@ just a leisure and my haluness for ayang zeta
 
 # screenshot
 ![screencapture-zeta-voicepack-vercel-app-2023-04-21-18_19_51](https://user-images.githubusercontent.com/55863992/233624116-bfe5a5ea-8c89-4f5e-8b0f-c0f5eca0b30c.png)
+---
+
+zeta-voicepack is created by [Jehian](https://jehianth.github.io/) ([Instagram](https://instagram.com/jehianth)). <br>
+You can support the author by donation in [Saweria](https://saweria.co/jehianth).
